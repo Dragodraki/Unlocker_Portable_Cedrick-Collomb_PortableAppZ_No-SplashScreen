@@ -22,6 +22,8 @@ In other words: It realizes a fix to what PortableAppZ meant the software has al
 -------------------------------
 USAGE:
 -------------------------------
-Method 1: Download the release EXE which doesn't accept the command line options but as single file is full portable and perfectly suitable for USB flash drives. Use this method if you plan to use "Unlocker" manually.
+-Both method 1 and 2 are portable solutions-
 
-Method 2: Download the "bin" folder from Repositories if you want to achieve automatic operations using the command line. In this case you have to run the VBS "DisableSplash.vbs" first before "UnlockerPortable.exe" with parameters (run >> "UnlockerPortable.exe" -h << to list all arguments).
+Method 1 (release): Download the release EXE which doesn't accept the command line options but as single file is full portable and perfectly suitable for USB flash drives. Recommended for everyone who likes to use the graphical interface (GUI). Command-line parameters (console) from Unlocker won't work here.
+
+Method 2 (developer): Download the "bin" folder from Repositories if you want to achieve automatic operations using the command line. In this case you have to run the VBS "DisableSplash.vbs" first before "UnlockerPortable.exe" with parameters (run >> "UnlockerPortable.exe" -h << to list all arguments).
