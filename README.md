@@ -15,6 +15,7 @@ is also correct there. If existing INI files are changed after changing the path
 HOW IT WORKS TECHNICALLY:
 -------------------------------
 My modification don't change the original code (neither from Collomb nor from PortableAppZ). It protects the copyright in the sense of it's origin developer and allow silent operation without any ads for everybody. Therefore before the start of "UnlockerPortable.exe" a VBS-Script re-creates the correct two files named "UnlockerPortable.ini" (one in root and one in subfolder "Data") with the command not to show SplashScreen and information about the LastDirectory (the actual path has to be there for really not to show the SplashScreen).
+
 In other words: It realizes a fix to what PortableAppZ meant the software has always to be, providing the INI file, but for a unknown reason malfunctioned up to now.
 
 
@@ -22,4 +23,5 @@ In other words: It realizes a fix to what PortableAppZ meant the software has al
 USAGE:
 -------------------------------
 Method 1: Download the release EXE which doesn't accept the command line options but as single file is full portable and perfectly suitable for USB flash drives. Use this method if you plan to use "Unlocker" manually.
+
 Method 2: Download the "bin" folder from Repositories if you want to achieve automatic operations using the command line. In this case you have to run the VBS "DisableSplash.vbs" first before "UnlockerPortable.exe" with parameters (run >> "UnlockerPortable.exe" -h << to list all arguments).
