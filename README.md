@@ -1,4 +1,4 @@
-# Unlocker-1.9.0.1-Disable-SplashScreen
+# Unlocker-1.9.0.1
 Able to run UnlockerPortable without SplashScreen
 
 -------------------------------
