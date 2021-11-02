@@ -1,4 +1,4 @@
-# Unlocker 1.9.0.1
+# Unlocker Portable 1.9.0.1
 Able to run UnlockerPortable without SplashScreen
 
 -------------------------------
