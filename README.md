@@ -13,7 +13,7 @@ Unfortunately, the portable one contains a SplashScreen (advertising banner) for
 -------------------------------
 HOW IT WORKS TECHNICALLY:
 -------------------------------
-My modification don't change the original code (neither from Cedrick Collomb nor from PortableAppZ). It protects the copyright in the sense of it's origin developer and allow silent operation without any ads for everybody. Therefore before the start of "UnlockerPortable.exe" a VBS-Script re-creates the correct two files named "UnlockerPortable.ini" (one in root and one in subfolder "Data") with the command not to show SplashScreen and information about the LastDirectory (the actual path has to be there for really not to show the SplashScreen).
+My modification don't change the original code (neither from Cedrick Collomb nor from PortableAppZ). It protects the copyright in the sense of it's origin developer and allow silent operation without any ads for everybody. Therefore before the start of "UnlockerPortable.exe" a VBS-Script re-creates the correct two files named "UnlockerPortable.ini" (one in root and one in subfolder "Data") with instruction, to disable SplashScreen.
 
 In other words: It realizes a fix to what PortableAppZ meant the software has always to be, providing the INI file, but for a unknown reason malfunctioned up to now.
 
